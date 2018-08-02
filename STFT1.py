@@ -20,11 +20,12 @@ def Chuli(path):
     plt.xlabel('Time [sec]')
     plt.show()
 
-for i in range(4):
-    Chuli('Wave Files/a%d.wav' % i)
-
-for i in range(4):
-    Chuli('Wave Files/b%d.wav' % i)
-
-for i in range(4):
-    Chuli('Wave Files/c%d.wav' % i)
+Chuli('Wave Files/a0.wav')
+# for i in range(4):
+#     Chuli('Wave Files/a%d.wav' % i)
+#
+# for i in range(4):
+#     Chuli('Wave Files/b%d.wav' % i)
+#
+# for i in range(4):
+#     Chuli('Wave Files/c%d.wav' % i)
